@@ -1,4 +1,4 @@
-package com.packager.user.controller;
+package com.packager.user.UI.Home;
 
 
 import android.app.Application;
@@ -6,10 +6,9 @@ import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.ViewModel;
 
 import com.packager.user.Entities.Package;
-import com.packager.user.repository.PackageRepository;
+import com.packager.user.Data.repository.PackageRepository;
 
 import java.util.List;
 

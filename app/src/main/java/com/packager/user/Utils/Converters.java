@@ -1,9 +1,9 @@
-package com.packager.user.model;
+package com.packager.user.Utils;
 
 import androidx.room.TypeConverter;
 
 import com.packager.user.Entities.Address;
-import com.packager.user.Entities.Configuration;
+import com.packager.user.Utils.Configuration;
 
 import java.util.ArrayList;
 import java.util.Date;

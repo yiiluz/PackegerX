@@ -1,4 +1,4 @@
-package com.packager.user.controller;
+package com.packager.user.UI.Home;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -17,8 +17,11 @@ import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
-import com.packager.user.Entities.Configuration;
+import com.packager.user.UI.Home.FriendsPackages.FriendsFragment;
+import com.packager.user.UI.Login.MainActivity;
+import com.packager.user.Utils.Configuration;
 import com.packager.user.Entities.Person;
+import com.packager.user.Receivers.NewPackageService;
 import com.packager.user.R;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.database.DataSnapshot;
@@ -41,6 +44,7 @@ public class NewHomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_home);
+       // registerReceiver(new NewPackageBroadcastReceiver(), new IntentFilter("new_package_service"));
 
         dialog = new ProgressDialog(this);
         dialog.setMessage("Wait...");
@@ -121,7 +125,7 @@ public class NewHomeActivity extends AppCompatActivity {
                     startActivity((new Intent(NewHomeActivity.this, MainActivity.class)).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                     finish();
                 }
-                //startService(new Intent(getBaseContext(), NewPackageService.class));
+                startService(new Intent(NewHomeActivity.this, NewPackageService.class));
                 View headerView = navigationView.getHeaderView(0);
                 userMail = headerView.findViewById(R.id.user_header_mail);
                 userName = headerView.findViewById(R.id.user_header_name);

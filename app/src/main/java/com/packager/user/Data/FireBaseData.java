@@ -1,9 +1,7 @@
-package com.packager.user.model;
+package com.packager.user.Data;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 
-import com.google.firebase.database.ChildEventListener;
 import com.packager.user.Entities.Package;
 import com.packager.user.Entities.Person;
 import com.google.firebase.database.DataSnapshot;
@@ -11,8 +9,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.packager.user.controller.MainActivity;
-import com.packager.user.repository.PackageRepository;
+import com.packager.user.UI.Login.MainActivity;
 
 import java.util.ArrayList;
 

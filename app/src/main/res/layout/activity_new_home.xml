@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/pacage_bg"
     android:fitsSystemWindows="true"
-    tools:context=".controller.NewHomeActivity"
+    tools:context=".UI.Home.NewHomeActivity"
     tools:openDrawer="start">
 
     <LinearLayout

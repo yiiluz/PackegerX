@@ -1,4 +1,4 @@
-package com.packager.user.controller;
+package com.packager.user.UI.Login;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -27,9 +27,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.packager.user.Entities.Configuration;
+import com.packager.user.UI.Home.NewHomeActivity;
+import com.packager.user.UI.Register.RegisterActivity;
+import com.packager.user.Utils.Configuration;
 import com.packager.user.R;
-import com.packager.user.model.FireBaseAuth;
+import com.packager.user.Auth.FireBaseAuth;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

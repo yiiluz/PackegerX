@@ -1,10 +1,8 @@
-package com.packager.user.controller;
+package com.packager.user.UI.Home;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -14,16 +12,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.packager.user.Entities.Configuration;
+import com.packager.user.UI.Login.MainActivity;
+import com.packager.user.Utils.Configuration;
 import com.packager.user.Entities.Person;
 import com.packager.user.R;
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 

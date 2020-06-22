@@ -1,4 +1,4 @@
-package com.packager.user.controller;
+package com.packager.user.UI.Home.FriendsPackages;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -23,13 +23,14 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.packager.user.Entities.Address;
-import com.packager.user.Entities.Configuration;
+import com.packager.user.UI.Home.NewHomeActivity;
+import com.packager.user.UI.Login.MainActivity;
+import com.packager.user.Utils.Configuration;
 import com.packager.user.Entities.Package;
 import com.packager.user.Entities.Person;
 import com.packager.user.R;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class FriendsFragment extends Fragment {
     ProgressDialog dialog;

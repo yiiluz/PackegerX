@@ -1,13 +1,13 @@
 package com.packager.user.Entities;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 import androidx.room.TypeConverters;
 
-import com.packager.user.model.Converters;
+import com.packager.user.Utils.Configuration;
+import com.packager.user.Utils.Converters;
 
 import java.util.ArrayList;
 import java.util.Date;

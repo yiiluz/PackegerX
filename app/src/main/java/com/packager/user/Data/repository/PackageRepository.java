@@ -1,4 +1,4 @@
-package com.packager.user.repository;
+package com.packager.user.Data.repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
@@ -6,8 +6,8 @@ import android.os.AsyncTask;
 import androidx.lifecycle.LiveData;
 
 import com.packager.user.Entities.Package;
-import com.packager.user.model.PackageDao;
-import com.packager.user.model.PackagesDataBase;
+import com.packager.user.Data.PackageDao;
+import com.packager.user.Data.PackagesDataBase;
 
 import java.util.List;
 

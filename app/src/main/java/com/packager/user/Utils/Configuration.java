@@ -1,4 +1,4 @@
-package com.packager.user.Entities;
+package com.packager.user.Utils;
 
 public class Configuration {
 

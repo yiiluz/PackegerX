@@ -1,9 +1,8 @@
-package com.packager.user.controller;
+package com.packager.user.UI.Home;
 
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -19,16 +18,14 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.firebase.ui.auth.AuthUI;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.packager.user.Entities.Configuration;
+import com.packager.user.UI.Login.MainActivity;
+import com.packager.user.Utils.Configuration;
 import com.packager.user.Entities.Package;
 import com.packager.user.R;
 

@@ -1,4 +1,4 @@
-package com.packager.user.model;
+package com.packager.user.Data;
 
 import android.content.Context;
 

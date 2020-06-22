@@ -1,14 +1,12 @@
-package com.packager.user.model;
+package com.packager.user.Data;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
-import androidx.room.TypeConverters;
 import androidx.room.Update;
 
-import com.packager.user.Entities.Configuration;
 import com.packager.user.Entities.Package;
 
 import java.util.List;

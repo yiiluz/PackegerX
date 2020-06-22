@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/pacage_bg"
-        tools:context=".controller.MainActivity">
+        tools:context=".UI.Login.MainActivity">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editTextMail"

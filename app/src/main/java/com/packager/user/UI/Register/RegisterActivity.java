@@ -1,4 +1,4 @@
-package com.packager.user.controller;
+package com.packager.user.UI.Register;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +12,8 @@ import android.widget.ScrollView;
 import android.widget.Toast;
 
 import com.packager.user.R;
-import com.packager.user.model.FireBaseAuth;
+import com.packager.user.Auth.FireBaseAuth;
+import com.packager.user.UI.Login.MainActivity;
 
 public class RegisterActivity extends AppCompatActivity {
     private Button signUpButton;

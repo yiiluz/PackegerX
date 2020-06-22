@@ -1,4 +1,4 @@
-package com.packager.user.controller;
+package com.packager.user.UI.Login;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,7 +19,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
-import com.packager.user.Entities.Configuration;
+import com.packager.user.UI.Home.NewHomeActivity;
+import com.packager.user.Utils.Configuration;
 import com.packager.user.R;
 
 import java.util.concurrent.TimeUnit;

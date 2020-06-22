@@ -1,9 +1,9 @@
-package com.packager.user.model;
+package com.packager.user.Auth;
 
 import androidx.annotation.NonNull;
 
 import com.packager.user.Entities.Person;
-import com.packager.user.controller.MainActivity;
+import com.packager.user.UI.Login.MainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
